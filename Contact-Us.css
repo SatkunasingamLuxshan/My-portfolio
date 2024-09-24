@@ -1,0 +1,155 @@
+.image-contanier{
+        margin-top:20px;
+        border-radius: 30px;
+}
+.imgbanner{
+    width: fit-content;
+}
+
+.card-container {
+    display: flex; 
+    gap: 50px; 
+    background-color: #292929;
+    margin: 20px auto;
+    border-radius: 30px;
+    padding: 50px;
+}
+
+.Card {
+    background-color: #d9d9d9;
+    width: 300px;
+    height: 180px;
+    border-radius: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #292929;
+    transition: transform 0.3s ease; 
+}
+
+.Card:hover {
+    transform: scale(1.05);
+}
+
+.img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.text-wrapper-6 {
+    font-family: "Istok Web-Bold", Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 24px;       
+}
+
+.p {
+    font-family: "Istok Web-Regular", Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    
+
+}
+
+.content {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    background-color: #292929;
+    padding: 15px;
+    gap: 20px; 
+}
+
+.form {
+    width: 45%;
+    padding: 40px; 
+    border-radius: 30px;
+    
+}
+
+
+.location {
+    width: 55%;
+    padding: 40px; 
+    border-radius: 30px;
+}
+
+.form-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-input, .form-textarea {
+    width: 100%; 
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid #d9d9d9;
+    font-size: 15px;
+    color: #292929;
+    font-weight: 700;
+}
+
+.form-textarea {
+    height: 120px; 
+    resize: none; 
+}
+
+.form-button {
+    width: auto; 
+    padding: 15px 40px; 
+    background-color: #B45252;
+    color:#dfd0d0;;
+    font-size: 18px;
+    font-weight: 700;
+    border: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 0; 
+    display: inline-block; 
+}
+
+.form-button:hover {
+    background-color: #555555; 
+}
+
+.card-container2 {
+    gap: 80px;
+    justify-content: space-around; 
+    display: flex; 
+    background-color: #292929;
+    margin-bottom: 20px;
+   border-radius: 30px;
+    padding: 40px 65px;
+
+}
+
+.social-card {
+    text-align: center;
+}
+
+.social-card a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.social-card img {
+    width: 50px; 
+    height: 50px;
+    margin-bottom: 10px; 
+}
+
+.social-card p {
+    font-size: 16px;
+    margin: 0; 
+}
+.social-card img:hover {
+    transform: scale(1.2); 
+}

@@ -1,0 +1,91 @@
+body {
+    
+    font-family: "Istok Web", Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffff;
+    color:#dcd0df;
+   
+}
+
+.home {
+    width:1349px;
+    max-width:1349px ;
+    min-width:1349px; ;
+    background-color: #222222;
+    width: 100%;
+    max-width: 1349px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.header {
+    width: 100%;
+    background-color: #333;
+    padding: 15px 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.firstname {
+    color: #b35151;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #dfd0d0;
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+
+.nav-links a:hover {
+    color: #b35151;
+}
+
+
+/* Add this CSS to style the social bar */
+.social-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between icons */
+}
+
+.social-bar a {
+    display: inline-block;
+}
+
+.social-bar img {
+    width: 24px; /* Adjust size of icons */
+    height: 24px;
+    transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+.social-bar img:hover {
+    transform: scale(1.1); /* Slightly enlarge icon on hover */
+}
